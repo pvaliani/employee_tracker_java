@@ -4,6 +4,8 @@ import org.junit.Test;
 import Staff.Employee;
 import Management.Manager;
 
+import static org.junit.Assert.assertEquals;
+
 public class EmployeeTest {
 
     Employee employee;
@@ -19,6 +21,7 @@ public class EmployeeTest {
 
     @Test
     public void getName(){
+        assertEquals("Pedram", employee.getName());
 
     }
 
