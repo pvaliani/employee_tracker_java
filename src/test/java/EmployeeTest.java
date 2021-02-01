@@ -25,6 +25,16 @@ public class EmployeeTest {
 
     }
 
+    @Test
+    public void getNiNumber(){
+        assertEquals(666, employee.getNiNum());
+    }
+
+    @Test
+    public void getSalary(){
+        assertEquals(50005, employee.getSalary(), 0.01 );
+    }
+
 
 
 }
