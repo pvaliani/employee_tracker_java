@@ -44,6 +44,7 @@ public class EmployeeTest {
 
     @Test
     public void canPayBonus(){
+        assertEquals(500.05, employee.payBonus(), 0.01) ;
 
     }
 
